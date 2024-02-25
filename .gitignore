@@ -1,0 +1,126 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Flutter/Dart specific
+*.iml
+.vscode/
+.idea/
+.project
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+.dart_tool/
+.pub/
+.pub-cache/
+.dart_server/
+.dart_tool/
+# Flutter build files
+.dart_tool/build/
+.build/
+ios/Flutter/App.framework/
+ios/Flutter/Flutter.framework/
+ios/Flutter/flutter_assets/
+ios/Pods/
+macos/Pods/
+macos/Flutter/Flutter.xcworkspace/
+macos/Flutter/ephemeral/Flutter.framework/
+macos/Flutter/ephemeral/Profile.iOS/Generated.xcconfig
+macos/Flutter/ephemeral/Profile.macOS/Generated.xcconfig
+macos/Flutter/gen_localizations.stamp
+web/bundled/
+web/packages/
+
+# Flutter/Dart package dependencies
+.packages
+
+# Flutter IntelliJ/Android Studio plugin
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Flutter Visual Studio Code plugin
+.vscode/
+.history/
+
+# Android specific
+android/**/gradle-wrapper.jar
+android/**/gradle-wrapper.properties
+android/**/local.properties
+android/**/GeneratedPluginRegistrant.*
+
+# iOS specific
+ios/**/.generated/
+ios/**/.generated_plugin_registrant.*
+ios/Flutter/AppFrameworkInfo.plist
+ios/Flutter/Flutter.entitlements
+ios/Flutter/Generated.xcconfig
+ios/Flutter/AppFrameworkInfo.plist
+ios/Podfile.lock
+ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/
+ios/Runner.xcworkspace/
+
+# Windows specific
+windows/Flutter/ephemeral/GeneratedPluginRegistrant.*
+windows/Flutter/ephemeral/FlutterGenerated.xcconfig
+
+# Environment config
+*.env
+
+# Don't commit IntelliJ IDEA, Android Studio, or Visual Studio Code files
+*.iws
+*.iml
+*.ipr
+
+# Dart
+.dart_tool/
+
+# VS Code folders
+.vscode/
+
+# macOS
+.DS_Store
+
