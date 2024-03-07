@@ -47,7 +47,7 @@ class HomePersistentHeader extends SliverPersistentHeaderDelegate {
                   opacity: offsetPercent > 0.1 ? 0 : 1,
                   duration: const Duration(microseconds: 500),
                   child: Text(
-                    "Peachy",
+                    "Wabe",
                     style: FONT_CONST.BOLD_PRIMARY_26,
                   ),
                 ),

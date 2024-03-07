@@ -30,27 +30,27 @@ List<Map<String, dynamic>> categories = [
   {
     "name": "Appliances",
     "imageUrl":
-        "https://cdn.firstcry.com/education/2023/01/13101355/Names-Of-Household-Appliances-In-English.jpg"
+        "https://res.cloudinary.com/dr3oej7m6/image/upload/v1708904889/yxcuxpcejbrbs9s7stjb.jpg"
   },
   {
     "name": "Arts",
     "imageUrl":
-        "https://worlduniversityofdesign.ac.in/assets/images/bgs/school-of-visual-arts-banner.jpg"
+        "https://res.cloudinary.com/dr3oej7m6/image/upload/c_scale,h_720,w_1080/uz1ko0xvrb6cvnqjeeju.jpg"
   },
   {
     "name": "Automotive",
     "imageUrl":
-        "https://res.cloudinary.com/dr3oej7m6/image/upload/v1708780964/psv7twfnn9v9kfkjh6aj.jpg"
+        "https://res.cloudinary.com/dr3oej7m6/image/upload/t_automative/psv7twfnn9v9kfkjh6aj.jpg"
   },
   {
     "name": "Baby products",
     "imageUrl":
-        "https://softsensbaby.com/cdn/shop/files/Website-Banner.gif?v=1704862260"
+        "https://res.cloudinary.com/dr3oej7m6/image/upload/c_scale,h_720,w_1080/dgjo1qtn3jb2mza1x0qj.jpg"
   },
   {
     "name": "Beauty and personal care",
     "imageUrl":
-        "https://res.cloudinary.com/dr3oej7m6/image/upload/v1708782899/twia9w1qyousywztecac.jpg"
+        "https://res.cloudinary.com/dr3oej7m6/image/upload/v1708906701/d2qsomqemm2c0f9qfryg.jpg"
   },
   {
     "name": "Books",
@@ -60,27 +60,27 @@ List<Map<String, dynamic>> categories = [
   {
     "name": "Clothing, shoes, and jewellery",
     "imageUrl":
-        "https://res.cloudinary.com/dr3oej7m6/image/upload/v1708775940/b5ordvjmqc37yvcabr6g.jpg"
+        "https://res.cloudinary.com/dr3oej7m6/image/upload/t_clothing_shoe/b5ordvjmqc37yvcabr6g.jpg"
   },
   {
     "name": "Electronics",
     "imageUrl":
-        "https://www.polytechnichub.com/wp-content/uploads/2017/04/Electronic.jpg"
+        "https://res.cloudinary.com/dr3oej7m6/image/upload/e_improve:outdoor/c_scale,h_1080,w_1920/ozfzx3jaxdkyz8m5eril.jpg"
   },
   {
     "name": "Grocery",
     "imageUrl":
-        "https://res.cloudinary.com/dr3oej7m6/image/upload/v1708796244/tvv2byu9tqoae1wc16rm.jpg"
+        "https://res.cloudinary.com/dr3oej7m6/image/upload/c_scale,h_720,w_1080/tvv2byu9tqoae1wc16rm.jpg"
   },
   {
     "name": "Health",
     "imageUrl":
-        "https://www.medibid.com/wp-content/uploads/2023/12/HealthCoach-Page-Hero-Side.jpg"
+        "https://res.cloudinary.com/dr3oej7m6/image/upload/t_health_cat/lufxzvxrxq6ic6hkeof1.jpg"
   },
   {
     "name": "Home and kitchen",
     "imageUrl":
-        "https://m.media-amazon.com/images/I/81yXPUqatGL._AC_SL1500_.jpg"
+        "https://res.cloudinary.com/dr3oej7m6/image/upload/t_kitchen_home/wjphb0zd0mixinxzzdkp.jpg"
   },
   {
     "name": "Musical Instrument",
@@ -95,11 +95,11 @@ List<Map<String, dynamic>> categories = [
   {
     "name": "Sports and outdoors",
     "imageUrl":
-        "https://res.cloudinary.com/dr3oej7m6/image/upload/v1708798251/swm1v9dhaenuv1cs5xh9.jpg"
+        "https://res.cloudinary.com/dr3oej7m6/image/upload/t_outdoor/swm1v9dhaenuv1cs5xh9.jpg"
   },
   {
     "name": "Tools and home",
     "imageUrl":
-        "https://res.cloudinary.com/dr3oej7m6/image/upload/v1708797670/rpagwkin91nov4qhqjlx.jpg"
+        "https://res.cloudinary.com/dr3oej7m6/image/upload/t_home_tools/rpagwkin91nov4qhqjlx.jpg"
   },
 ];
