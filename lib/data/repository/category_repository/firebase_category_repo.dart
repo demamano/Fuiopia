@@ -35,52 +35,52 @@ List<Map<String, dynamic>> categories = [
   {
     "name": "Arts",
     "imageUrl":
-        "https://res.cloudinary.com/dr3oej7m6/image/upload/c_scale,h_720,w_1080/uz1ko0xvrb6cvnqjeeju.jpg"
+        "https://res.cloudinary.com/dr3oej7m6/image/upload/v1710321807/wgvjnkqkudnz80rewayn.jpg"
   },
   {
     "name": "Automotive",
     "imageUrl":
-        "https://res.cloudinary.com/dr3oej7m6/image/upload/t_automative/psv7twfnn9v9kfkjh6aj.jpg"
+        "https://res.cloudinary.com/dr3oej7m6/image/upload/v1710321808/qsvpbrqeyvalefeac5ls.png"
   },
   {
     "name": "Baby products",
     "imageUrl":
-        "https://res.cloudinary.com/dr3oej7m6/image/upload/c_scale,h_720,w_1080/dgjo1qtn3jb2mza1x0qj.jpg"
+        "https://res.cloudinary.com/dr3oej7m6/image/upload/v1710321808/nw14ed5qankgywlq1jjr.png"
   },
   {
     "name": "Beauty and personal care",
     "imageUrl":
-        "https://res.cloudinary.com/dr3oej7m6/image/upload/v1708906701/d2qsomqemm2c0f9qfryg.jpg"
+        "https://res.cloudinary.com/dr3oej7m6/image/upload/v1710321809/ojknuijdxaw84pejvjci.png"
   },
   {
     "name": "Books",
     "imageUrl":
-        "https://macmillan-dam.captureweb.co.uk/cdn/macmill…/0/14665546cf5662d409143d004ffc0c54/131898933.jpg"
+        "https://res.cloudinary.com/dr3oej7m6/image/upload/v1710321808/ix7e7m2nj8a7gbrbwmos.png"
   },
   {
     "name": "Clothing, shoes, and jewellery",
     "imageUrl":
-        "https://res.cloudinary.com/dr3oej7m6/image/upload/t_clothing_shoe/b5ordvjmqc37yvcabr6g.jpg"
+        "https://res.cloudinary.com/dr3oej7m6/image/upload/v1710321809/xfkrbjxs3wadhslmv85v.png"
   },
   {
     "name": "Electronics",
     "imageUrl":
-        "https://res.cloudinary.com/dr3oej7m6/image/upload/e_improve:outdoor/c_scale,h_1080,w_1920/ozfzx3jaxdkyz8m5eril.jpg"
+        "https://res.cloudinary.com/dr3oej7m6/image/upload/v1710321810/s9fxrvudmzlcxk1qn1xc.png"
   },
   {
     "name": "Grocery",
     "imageUrl":
-        "https://res.cloudinary.com/dr3oej7m6/image/upload/c_scale,h_720,w_1080/tvv2byu9tqoae1wc16rm.jpg"
+        "https://res.cloudinary.com/dr3oej7m6/image/upload/v1710321808/hukkgbz5ir5vajer8re1.png"
   },
   {
     "name": "Health",
     "imageUrl":
-        "https://res.cloudinary.com/dr3oej7m6/image/upload/t_health_cat/lufxzvxrxq6ic6hkeof1.jpg"
+        "https://res.cloudinary.com/dr3oej7m6/image/upload/v1710321807/diwco2trudx777arp6ah.png"
   },
   {
     "name": "Home and kitchen",
     "imageUrl":
-        "https://res.cloudinary.com/dr3oej7m6/image/upload/t_kitchen_home/wjphb0zd0mixinxzzdkp.jpg"
+        "https://res.cloudinary.com/dr3oej7m6/image/upload/v1710321806/y3kx1w4niosbfwk3kxu4.png"
   },
   {
     "name": "Musical Instrument",
@@ -90,12 +90,12 @@ List<Map<String, dynamic>> categories = [
   {
     "name": "Office products",
     "imageUrl":
-        "https://aa-business.co.uk/wp-content/uploads/2019/10/Office-Accessories.jpg"
+        "https://res.cloudinary.com/dr3oej7m6/image/upload/v1710321807/yh9pa86hzcnn9cucou1z.png"
   },
   {
     "name": "Sports and outdoors",
     "imageUrl":
-        "https://res.cloudinary.com/dr3oej7m6/image/upload/t_outdoor/swm1v9dhaenuv1cs5xh9.jpg"
+        "https://res.cloudinary.com/dr3oej7m6/image/upload/v1710321809/isgc3lgzlrjkyahpq4fr.png"
   },
   {
     "name": "Tools and home",

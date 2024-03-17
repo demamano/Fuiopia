@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "355698298037",
-    "project_id": "fuiopia",
-    "storage_bucket": "fuiopia.appspot.com"
+    "project_number": "874482404052",
+    "project_id": "fiopia",
+    "storage_bucket": "fiopia.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:355698298037:android:9692756ebadb33940882fc",
+        "mobilesdk_app_id": "1:874482404052:android:c7ce52ceb7f2e4db244941",
         "android_client_info": {
           "package_name": "com.example.fuiopia"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDXXfkwV_8ZN-OoBi6WAmSUcrsllic7Ubk"
+          "current_key": "AIzaSyAkd7r-Cp9Q9gUGyPdsW9puKIBRaJ_gFJE"
         }
       ],
       "services": {

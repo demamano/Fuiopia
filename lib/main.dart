@@ -16,12 +16,13 @@ final firebaseCategoryRepository = FirebaseCategoryRepository(dbClient);
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  const SystemUiOverlayStyle(statusBarColor: Colors.transparent);
+  const SystemUiOverlayStyle(statusBarColor: Colors.transparent); 
   Bloc.observer = SimpleBlocObserver();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-  // firebaseCategoryRepository.createCategories();
+  firebaseCategoryRepository.createCategories();
+
   runApp(const MyApp());
 }
 

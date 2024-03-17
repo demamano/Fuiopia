@@ -1,6 +1,6 @@
-import 'package:fuiopia/bottom_navigation.dart';
 import 'package:fuiopia/data/models/models.dart';
 import 'package:fuiopia/presentation/screens/detail_image/detail_image_screen.dart';
+import 'package:fuiopia/presentation/screens/home_page/home_screen.dart';
 import 'package:fuiopia/presentation/screens/message/message_screen.dart';
 import 'package:fuiopia/presentation/screens/detail_order/detail_order_screen.dart';
 import 'package:fuiopia/presentation/screens/map/map_screen.dart';
@@ -62,7 +62,7 @@ class AppRouter {
         );
       case HOME:
         return MaterialPageRoute(
-          builder: (_) => const BottomNavigation(),
+          builder: (_) => const HomeScreen(),
         );
       case SETTING:
         return MaterialPageRoute(

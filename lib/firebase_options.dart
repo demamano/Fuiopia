@@ -50,19 +50,19 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDXXfkwV_8ZN-OoBi6WAmSUcrsllic7Ubk',
-    appId: '1:355698298037:android:9692756ebadb33940882fc',
-    messagingSenderId: '355698298037',
-    projectId: 'fuiopia',
-    storageBucket: 'fuiopia.appspot.com',
+    apiKey: 'AIzaSyAkd7r-Cp9Q9gUGyPdsW9puKIBRaJ_gFJE',
+    appId: '1:874482404052:android:c7ce52ceb7f2e4db244941',
+    messagingSenderId: '874482404052',
+    projectId: 'fiopia',
+    storageBucket: 'fiopia.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyATRnVeFhCNWqXGTOhON4k8XJcX1FJ_buA',
-    appId: '1:355698298037:ios:3ce334d0fec798400882fc',
-    messagingSenderId: '355698298037',
-    projectId: 'fuiopia',
-    storageBucket: 'fuiopia.appspot.com',
+    apiKey: 'AIzaSyDq_H-wmJEWF44TLs3USoX2JZ-DexXyCfo',
+    appId: '1:874482404052:ios:e8e8ab9fe55306ef244941',
+    messagingSenderId: '874482404052',
+    projectId: 'fiopia',
+    storageBucket: 'fiopia.appspot.com',
     iosBundleId: 'com.example.fuiopia',
   );
 }
