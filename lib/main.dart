@@ -21,7 +21,7 @@ void main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-  firebaseCategoryRepository.createCategories();
+  // firebaseCategoryRepository.createCategories();
 
   runApp(const MyApp());
 }

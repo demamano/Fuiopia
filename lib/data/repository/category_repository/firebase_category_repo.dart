@@ -17,8 +17,8 @@ class FirebaseCategoryRepository {
 
   Future<void> createCategories() async {
     try {
-      for (var category in categories) {
-        await dbClient.add(collection: 'categories', data: category);
+      for (var category in bannerData) {
+        await dbClient.add(collection: 'banners', data: category);
       }
     } catch (e) {
       throw Exception("Field to create categories$e");
@@ -30,12 +30,12 @@ List<Map<String, dynamic>> categories = [
   {
     "name": "Appliances",
     "imageUrl":
-        "https://res.cloudinary.com/dr3oej7m6/image/upload/v1708904889/yxcuxpcejbrbs9s7stjb.jpg"
+        "https://res.cloudinary.com/dr3oej7m6/image/upload/v1710321806/y3kx1w4niosbfwk3kxu4.png"
   },
   {
     "name": "Arts",
     "imageUrl":
-        "https://res.cloudinary.com/dr3oej7m6/image/upload/v1710321807/wgvjnkqkudnz80rewayn.jpg"
+        "https://res.cloudinary.com/dr3oej7m6/image/upload/v1710751233/ap9ilshynizljikmxotg.png"
   },
   {
     "name": "Automotive",
@@ -75,12 +75,7 @@ List<Map<String, dynamic>> categories = [
   {
     "name": "Health",
     "imageUrl":
-        "https://res.cloudinary.com/dr3oej7m6/image/upload/v1710321807/diwco2trudx777arp6ah.png"
-  },
-  {
-    "name": "Home and kitchen",
-    "imageUrl":
-        "https://res.cloudinary.com/dr3oej7m6/image/upload/v1710321806/y3kx1w4niosbfwk3kxu4.png"
+        "https://res.cloudinary.com/dr3oej7m6/image/upload/t_health-t/diwco2trudx777arp6ah.jpg"
   },
   {
     "name": "Musical Instrument",
@@ -100,6 +95,90 @@ List<Map<String, dynamic>> categories = [
   {
     "name": "Tools and home",
     "imageUrl":
-        "https://res.cloudinary.com/dr3oej7m6/image/upload/t_home_tools/rpagwkin91nov4qhqjlx.jpg"
+        "https://res.cloudinary.com/dr3oej7m6/image/upload/v1710751255/qxvbdmt3rwdt0sjd3eka.png"
   },
 ];
+
+List<Map<String, dynamic>> bannerData = [
+  {
+    "imageUrl":"https://res.cloudinary.com/dr3oej7m6/image/upload/v1710758600/ni1un1dfg1ipvxsniv9s.jpg"
+  },
+  {
+    "imageUrl":"https://res.cloudinary.com/dr3oej7m6/image/upload/v1710758604/ydpfymjrkf0vgsszdhge.png",
+  },
+  {
+    "imageUrl":"https://res.cloudinary.com/dr3oej7m6/image/upload/v1710758601/ru8xhsxijq4wlyjafsbk.png",
+  }
+
+];
+  List<Map<String, dynamic>> sampleData = [
+    {
+      'id': '1',
+      'categoryId': 'category1',
+      'name': 'Product 1',
+      'description': 'Description of Product 1',
+      'images': ['image1.jpg', 'image2.jpg'],
+      'rating': 4.5,
+      'quantity': 10,
+      'soldQuantity': 5,
+      'originalPrice': 100,
+      'percentOff': 10,
+      'isAvailable': true,
+    },
+    {
+      'id': '2',
+      'categoryId': 'category2',
+      'name': 'Product 2',
+      'description': 'Description of Product 2',
+      'images': ['image3.jpg', 'image4.jpg'],
+      'rating': 4.0,
+      'quantity': 15,
+      'soldQuantity': 8,
+      'originalPrice': 120,
+      'percentOff': 15,
+      'isAvailable': false,
+    },
+    {
+      'id': '3',
+      'categoryId': 'category1',
+      'name': 'Product 3',
+      'description': 'Description of Product 3',
+      'images': ['image5.jpg', 'image6.jpg'],
+      'rating': 3.8,
+      'quantity': 20,
+      'soldQuantity': 12,
+      'originalPrice': 80,
+      'percentOff': 20,
+      'isAvailable': true,
+    },
+    {
+      'id': '4',
+      'categoryId': 'category3',
+      'name': 'Product 4',
+      'description': 'Description of Product 4',
+      'images': ['image7.jpg', 'image8.jpg'],
+      'rating': 4.2,
+      'quantity': 12,
+      'soldQuantity': 6,
+      'originalPrice': 150,
+      'percentOff': 5,
+      'isAvailable': true,
+    },
+    {
+      'id': '5',
+      'categoryId': 'category2',
+      'name': 'Product 5',
+      'description': 'Description of Product 5',
+      'images': ['image9.jpg', 'image10.jpg'],
+      'rating': 4.7,
+      'quantity': 18,
+      'soldQuantity': 10,
+      'originalPrice': 200,
+      'percentOff': 25,
+      'isAvailable': true,
+    },
+    
+  ];
+
+
+
